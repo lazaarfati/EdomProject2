@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:id="@+id/container" android:background="@color/material_design_goldenrod" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView android:textSize="30dp" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Camera" android:singleLine="true" android:layout_centerHorizontal="true" />
+<TextView android:textSize="@dimen/driving_cell_value_text_size" android:textColor="@color/white" android:id="@+id/data" android:paddingTop="40dp" android:paddingBottom="@dimen/driving_cell_height_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ON" android:layout_centerInParent="true" />
+<ImageView  android:src="@drawable/camera_icon" android:id="@+id/icon" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="4.0dip" android:layout_centerVertical="true" />
+</RelativeLayout>

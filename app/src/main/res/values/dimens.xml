@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Guillotine screen dimens-->
+    <dimen name="guillotine_small_margin">24dp</dimen>
+    <dimen name="guillotine_medium_margin">48dp</dimen>
+    <dimen name="guillotine_large_margin">100dp</dimen>
+    <dimen name="guillotine_divider_height">40dp</dimen>
+    <dimen name="driving_cell_height_padding">24.0dip</dimen>
+    <dimen name="driving_cell_icon_width">36.0dip</dimen>
+    <dimen name="driving_cell_label_text_size">18.0sp</dimen>
+    <dimen name="driving_cell_value_text_size">40.0sp</dimen>
+    <dimen name="guillotine_item_text_size">20sp</dimen>
+    <dimen name="guillotine_actionbar_background_view_height">35dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="maginRightFrag">30dp</dimen>
+    <dimen name="loginMagin">10dp</dimen>
+    <dimen name="form_padding">15dp</dimen>
+    <dimen name="icon_size">25dp</dimen>
+    <dimen name="expanded_toolbar_title_margin_start">50dp</dimen>
+    <dimen name="nav_header_text_margin_left">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <dimen name="loginactivity_logo_from_login">80dp</dimen>
+    <!-- Guillotine screen dimens-->
+
+    <dimen name="wrtsi_settings_label_txt_size_size">16.0sp</dimen>
+    <dimen name="welcome_screen_start_btn_mrgbottom">25.0dip</dimen>
+    <dimen name="button_height">40.0dip</dimen>
+    <dimen name="button_margin">30.0dip</dimen>
+    <dimen name="button_small_margin">10.0dip</dimen>
+    <dimen name="button_small_min_width">110.0dip</dimen>
+    <dimen name="button_small_height">35.0dip</dimen>
+    <dimen name="button_small_text_size">16.0sp</dimen>
+    <dimen name="text_normal">12.0dip</dimen>
+    <dimen name="fragment_button_padding_top">5.0dip</dimen>
+    <dimen name="fragment_button_padding_left">5.0dip</dimen>
+    <dimen name="fragment_button_padding_height">40.0dip</dimen>
+    <dimen name="dialog_top_margin">48.0dip</dimen>
+    <dimen name="dialog_bottom_margin">24.0dip</dimen>
+
+</resources>

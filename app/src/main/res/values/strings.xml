@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Edom</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_forgot">ForgotPassActivity</string>
+    <string name="engine_alert_all_codes">Current Alert Codes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+<string name="Remarque_icon">Choisir un icon pour Votre logement !!!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="facebook_app_id">Your facebook app id</string>
+    <string name="profile">Mon Compte</string>
+    <string name="app_name1">Port On/Off </string>
+    <string name="feed">Message</string>
+    <string name="activity">Calendrier</string>
+    <string name="settings">Parametre</string>
+    <string name="table">tableau-de-bord</string>
+    <string name="drawer_opened">Opened</string>
+    <string name="drawer_closed">Closed</string>
+    <string name="wrtsi_network_settings_title_msg_txt">Il faut entrer toutes les informations du Logement !! </string>
+    <string-array name="planets_array">
+        <item>chambre à coucher</item>
+        <item>chambre pour bébé</item>
+        <item>WC</item>
+        <item>salle de bain</item>
+        <item>cuisine</item>
+        <item>garage</item>
+        <item>sallon</item>
+        <item>Hall</item>
+        <item>chambre pour enfant</item>
+        <item>couloir</item>
+        <item>bureau</item>
+    </string-array>
+    <string name="next">next</string>
+
+</resources>

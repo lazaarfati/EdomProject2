@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:gravity="center" android:orientation="horizontal"  android:paddingTop="@dimen/welcome_screen_start_btn_mrgbottom" android:paddingBottom="@dimen/welcome_screen_start_btn_mrgbottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:id="@+id/Search"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:background="@drawable/button_red_selector"
+            android:text="Search"
+            android:layout_marginRight="20dp"
+            />
+        <Button
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:id="@+id/ajouter"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:text="Ajouter"
+            android:background="@drawable/button_login_selector"
+            />
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ListView>
+
+
+</LinearLayout>

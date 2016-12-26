@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maison" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/type_logement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="maison"
+
+        android:textSize="17dp" >
+    </TextView>
+
+</LinearLayout>

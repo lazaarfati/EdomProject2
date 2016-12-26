@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    >
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:id="@+id/camera"
+    android:src="@drawable/camera"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="50dip"
+    />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:id="@+id/radio"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp">
+        <RadioButton android:id="@+id/on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ON"
+
+            android:textSize="20dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="onRadioButtonClicked"/>
+
+        <View android:textAppearance="?android:textAppearanceMedium" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginRight="7.0dip" />
+
+        <RadioButton android:id="@+id/off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OFF"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:onClick="onRadioButtonClicked"
+
+            />
+    </RadioGroup>
+
+</LinearLayout>
+    <Button
+android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:id="@+id/button_ok"
+        android:background="@drawable/button_login_selector"
+        android:text="OK"
+        android:textSize="30dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"/>
+
+</LinearLayout>
